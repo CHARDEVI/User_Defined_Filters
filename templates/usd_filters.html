@@ -1,0 +1,19 @@
+{% load filters %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>usd_filters</h1>
+        <h2>{{data}}</h2>
+        <h2>{{data|swap}}</h2>
+        <h2>{{data|counting:'M'}}</h2>
+        <h2>{{data|remove:'MS'}}</h2>
+    </center>
+</body>
+</html>
